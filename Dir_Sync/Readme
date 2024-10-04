@@ -1,0 +1,6 @@
+Python project to syncronize two directories to one and another, with the source directory adding or deleting files from, cause those chanegs to automatically happen in the replcia folder its syncronized to. 
+It logs any changes and posesses a schedule you can costumize.
+
+Needs to access via the terminal and the args pass are ("Source Path" "Replica Path" "Number of minutes of interval for the script to run" "Log file source" "Optional: Option to delete the files if you dont want to rpeserve them in the replica")
+
+Ex: python dir_sync.py Test\sync Test\sync_copy 1 log -d
